@@ -17,6 +17,3 @@ Welcome to the Pygame Physics Engine! This project is a physics engine designed 
 ## Contributing
 **under work**
 
-## License
-This project is licensed under the MIT License. See LICENSE for more details.
-
