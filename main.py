@@ -9,10 +9,10 @@ gameOver = False
 
 while not gameOver:
 
-	pygame.draw.circle(center=(0,0))
+	screen.fill("white")
+	pygame.draw.circle(screen, "red", (0,0), 40)
 
 	#required parameters
-	screen.fill("white")
 	for event in pygame.event.get():
 		if event.type == pygame.QUIT:
 			gameOver = True
@@ -22,3 +22,7 @@ while not gameOver:
 	clock.tick(60)
 
 pygame.quit()
+
+# TODO
+# -Study underlying structure 
+# -Make a UI, Game engine, Physics engine, Renderer 
